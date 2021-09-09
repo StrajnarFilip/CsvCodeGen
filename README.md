@@ -7,6 +7,12 @@ Install with:
 ```
 dotnet tool install --global CsvCodeGen --version 1.0.0
 ```
+
+**Do not forget to add this dependency to your project:**
+```
+dotnet add package Sylvan.Data.Csv --version 1.1.8
+```
+
 # Usage
 
 ```
@@ -15,9 +21,4 @@ CsvCodeGen <namespace> <class> <csv file path>
 Example of usage:
 ```
 CsvCodeGen Finance Receipt Transactions.csv
-```
-
-Also add the dependency to your project:
-```
-dotnet add package Sylvan.Data.Csv --version 1.1.8
 ```
