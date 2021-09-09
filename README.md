@@ -13,6 +13,12 @@ dotnet tool install --global CsvCodeGen --version 1.0.0
 dotnet add package Sylvan.Data.Csv --version 1.1.8
 ```
 
+**Perhaps also useful for string conversion:**
+```
+dotnet add package PStringExtensions --version 1.0.0
+```
+[PStringExtensions usage](https://github.com/StrajnarFilip/PString)
+
 # Usage
 
 ```
