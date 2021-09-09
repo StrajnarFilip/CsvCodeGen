@@ -3,6 +3,11 @@
 Get the tool on NuGet:
 https://www.nuget.org/packages/CsvCodeGen/
 
+Install with:
+```
+dotnet tool install --global CsvCodeGen --version 1.0.0
+```
+
 ```
 CsvCodeGen <namespace> <class> <csv file path>
 ```
