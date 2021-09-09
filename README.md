@@ -1,4 +1,7 @@
-# CsvToCsClass
+# CsvCodeGen
+
+Get the tool on NuGet:
+https://www.nuget.org/packages/CsvCodeGen/
 
 ```
 CsvCodeGen <namespace> <class> <csv file path>
