@@ -12,6 +12,10 @@ dotnet tool install --global CsvCodeGen --version 1.0.0
 ```
 CsvCodeGen <namespace> <class> <csv file path>
 ```
+Example of usage:
+```
+CsvCodeGen Finance Receipt Transactions.csv
+```
 
 Also add the dependency to your project:
 ```
