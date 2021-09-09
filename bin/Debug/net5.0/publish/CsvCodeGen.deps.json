@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "CsvCodeGen/1.0.0": {
+        "dependencies": {
+          "Sylvan.Data.Csv": "1.1.7"
+        },
+        "runtime": {
+          "CsvCodeGen.dll": {}
+        }
+      },
+      "Sylvan.Data.Csv/1.1.7": {
+        "runtime": {
+          "lib/netcoreapp3.0/Sylvan.Data.Csv.dll": {
+            "assemblyVersion": "1.1.7.0",
+            "fileVersion": "1.1.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CsvCodeGen/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Sylvan.Data.Csv/1.1.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BFQzgj6qVjo9MzGaAH86c7UeZ7LZeTU2umdAaCMaRSPnxKzr27ifV1IESgBt2jUG7lZR79KU+HRM5j7+qdGKpA==",
+      "path": "sylvan.data.csv/1.1.7",
+      "hashPath": "sylvan.data.csv.1.1.7.nupkg.sha512"
+    }
+  }
+}
