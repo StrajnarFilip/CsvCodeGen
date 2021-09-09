@@ -7,6 +7,7 @@ Install with:
 ```
 dotnet tool install --global CsvCodeGen --version 1.0.0
 ```
+# Usage
 
 ```
 CsvCodeGen <namespace> <class> <csv file path>
